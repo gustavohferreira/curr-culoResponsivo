@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Gustavo Ferreira</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Gustavo</a>
+
+            <div class="div nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Início
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book-open nav__icon'></i>Formação
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Qualificações
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experiência
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificações
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#languages" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Idiomas
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#interests" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Interesses
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="div nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt nav__icon'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        
+        <!-- Todos os elementos dessa div são para gerar o pdf -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <br>
+
+                <!-- Home -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpg" alt="Imagem de perfil" class="home__img">
+
+                            <h1 class="home__title">
+                                <b>GUSTAVO FERREIRA</b>
+                                <h3 class="home__profession">Desenvolvedor Web</h3>
+                            </h1>
+                        </div>
+
+                        <div class="home_address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map-pin home__icon'></i>
+                                Sorocaba, SP
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i>
+                                ferreirahgustavo@outlook.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i>
+                                +55 (15) 99152-5446
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Botão de tema light/dark -->
+                    <i class='bx bx-moon change-theme' title= "Tema claro/escuro" id= "theme-button"></i>
+
+                    <!-- Botão para gerar o pdf -->
+                    <i class='bx bx-download generate-pdf' title= "Baixar Currículo em PDF" id= "resume-button"></i>
+
+                </section>
+
+                <!-- Social -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+
+                        <a href="https://github.com/gustavohferreira" target= "_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i>
+                            gustavohferreira
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/gustavohferreira/" target= "_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>
+                            gustavohferreira
+                        </a>
+
+                        <a href="https://www.instagram.com/gustavohf93/" target= "_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i>
+                            @gustavohf93
+                        </a>
+
+                    </div>
+                </section>
+
+                <!-- Perfil -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+
+                    <p class="profile__description">
+                        Sou amante e entusiasta de tecnologia e trabalhar com ela me da a sensação de que estou no caminho certo, o que me deixa muito feliz e empolgado para os desafios que o me aguardam no futuro. 
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                </section>
+
+                <!-- Educação -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Formação</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Análise e Desenvolvimento de Sistemas</h3>
+                                <span class="education__studies">Anhembi Morumbi</span>
+                                <span class="education__year">2021 - 2023</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!--<span class="education__line"></span>-->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Tecnologia em Logística</h3>
+                                <span class="education__studies">UNIP</span>
+                                <span class="education__year">2017 - 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- Habilidades -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; JavaScript
+                            </li>               
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; HTML5
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; CSS3
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; MsSQL/MySQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; Git/GitHub
+                            </li>                            
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; Clean Code
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; Scrum
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; Kanban
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; SAP B1
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>&#9679; Office
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <div class="resume__right">
+                <br>
+
+                <!--Qualificações-->
+                <section class="qualifications section" id="qualifications">
+                    <h2 class="section-title">Qualificações</h2>
+
+                    <div class="qualifications__container bd-grid">
+
+                        <div class="qualifications__content">
+
+                            <div class="qualifications__data bd-grid">
+                                <h3 class="qualifications__title">Resumo</h3>
+                                <p class="experience__description">
+                                    &#10152; Desenvolvimento de aplicações Web<br>                                
+                                    &#10152; Elaboração de KPI's e relatórios técnicos<br>
+                                    &#10152; Administração de banco de dados relacionais<br>
+                                    &#10152; Testes de qualidade em aplicações SAP e API’s Rest
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Experiências -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title experience-title">Experiência</h2>
+
+                    <div class="experience__container bd-grid">
+
+                        <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title"> Estágio - Desenvolvimentos de Produtos</h3>
+                                    <span class="experience__company">Uppertools Tecnologia da Informação</span>
+                                    <p class="experience__description">
+                                        • Testes de produtos<br>
+                                        • Testes de aplicações em API’s Rest<br>
+                                        • Administração de banco de dados<br>  
+                                        • Atendimento de tickets e demandas<br>                                                                           
+                                        • Auxílio no desenvolvimento de aplicacações SAP
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!--<span class="experience__line"></span>-->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Customer Service</h3>
+                                <span class="experience__company">Schaeffler Brasil Ltda.</span>
+                                <p class="experience__description">
+                                    • Atendimento à clientes<br>
+                                    • Planejamento de vendas<br>
+                                    • Gestão de estoque e carteira<br>
+                                    • Elaboração de KPI's e relatórios técnicos<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Certificados -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificações</h2>
+
+                    <div class="certificate__container bd-grid">
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">&#10152; Desenvolvimento Web Moderno</h3>
+                            <p class="certificate__description">Udemy | cursando.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">&#10152; JavaScript ES6</h3>
+                            <p class="certificate__description">Digital Innovation One | Emitido em set. de 2021</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">&#10152; Projetos Ágeis com Scrum</h3>
+                            <p class="certificate__description">Digital Innovation One | Emitido em set. de 2021</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">&#10152; Lógica de Programação Essencial</h3>
+                            <p class="certificate__description">Digital Innovation One | Emitido em ago. de 2021</p>
+                        </div>                        
+                    </div>
+                </section>
+
+                <!-- Linguagens -->
+                <section class="languages section" id="languages">
+                    <h2 class="section-title">Idiomas</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Português | Nativo
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Inglês | Avançado
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Espanhol | Básico
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Interesses -->
+                <section class="interests section" id="interests">
+                    <h2 class="section-title">Interesses</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bxl-react interests__icon'></i>
+                            <span class="interests__name">ReactJS</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxl-nodejs interests__icon'></i>
+                            <span class="interests__name">NodeJS</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxl-docker interests__icon'></i>
+                            <span class="interests__name">Docker</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxl-aws interests__icon'></i>
+                            <span class="interests__name">AWS</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-camera-movie interests__icon'></i>
+                            <span class="interests__name">Cinema</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Viagens</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-football interests__icon'></i>
+                            <span class="interests__name">Esportes</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-book interests__icon'></i>
+                            <span class="interests__name">Leitura</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- Rolar a tela pra cima -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up-circle scrolltop__icon'></i>
+    </a>
+
+    <!-- HTML/PDF -->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
